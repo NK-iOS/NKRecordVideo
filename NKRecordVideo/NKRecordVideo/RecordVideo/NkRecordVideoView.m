@@ -418,7 +418,7 @@ static const CGFloat botViewH = 100.0;
         _pauseBtn.hidden = YES;
         [self.captureSession stopRunning];
         NSData *data = [NSData dataWithContentsOfURL:self.videoUrl];
-        NSLog(@"-----%@ ------------ %lu", self.videoUrl.absoluteString, (unsigned long)data.length);
+        NSLog(@"-----%@ ------------size： %lu", self.videoUrl.absoluteString, (unsigned long)data.length);
     }
 }
 @end
